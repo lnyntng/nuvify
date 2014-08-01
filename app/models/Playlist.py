@@ -1,6 +1,6 @@
 from ferris import BasicModel
 from google.appengine.ext import ndb
-
+from app.models.song import Song
 
 class Playlist(BasicModel):
     Title = ndb.StringProperty(required=True)
